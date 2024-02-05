@@ -1,6 +1,6 @@
 price = int(input("price of the car"));
 if price < 1000000:
-	price = (100000)* 10/100;
+	price = (100000* 0.1)
 	print (price)
 elif price >=  1000000 and price < 3000000:
 	print(0.15 * price)

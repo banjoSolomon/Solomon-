@@ -6,8 +6,9 @@ sum = num1 + num2 + num3
 avarage = sum / 3
 product = num1 * num2 * num3
 smallest = min(num1, num2, num3)
+smallest = min(num1, num2, num3)
 
-print("avarage", average)
+print("avarage", avarage)
 print("sum", sum)
 print("product", product)
 print("smallest", smallest)

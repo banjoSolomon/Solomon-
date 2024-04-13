@@ -28,7 +28,7 @@ private String creditCardNumber;
 	int index = creditCardLongNumberArray.length-2;
 	long total = 0;
 	for(; index >= 0; index -=2){
-	 long doubleNumber = creditCardLongNumberArray[index] * 2;
+	long doubleNumber = creditCardLongNumberArray[index] * 2;
 		if(doubleNumber > 9){
 		doubleNumber = (doubleNumber % 10) + 1;
                 }
